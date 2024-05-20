@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #388e3c;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #81c784;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #388e3c;
+}
+
+p {
+  font-size: 18px;
+  color: #388e3c;
+  margin-top: 20px;
+}
